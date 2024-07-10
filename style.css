@@ -23,8 +23,7 @@ header {
 }
 
 main {
-    grid-row: 2 / 3;
-    display: grid;
+    
 }
 
 footer {
@@ -86,8 +85,24 @@ footer {
     
 }
 
+.main-grid {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 4rem;
+    margin: 2rem;
+}
+
 .project-tile {
     display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: right;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px black;
+    height: 20rem;
 }
 
 .project-git-link {
