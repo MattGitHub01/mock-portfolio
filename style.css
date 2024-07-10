@@ -1,0 +1,30 @@
+.header-content {
+
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem;
+}
+
+.social-links img {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.project-tile {
+
+}
+
+.project-git-link {
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: cover;
+}
+
+.footer-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+    object-fit: cover;
+}
