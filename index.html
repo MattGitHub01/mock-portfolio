@@ -9,14 +9,19 @@
     </head>
     <body>
         <header>
-            <img src="./assets/profile.jpeg" alt="Jerry Bishop" />
+            <img
+            class="header-profile-img" 
+            srcset="./assets/profile-lg.jpg, ./assets/profile-sm.jpg" 
+            sizes="(max-width: 500px) 250px,
+            350"
+            alt="" />
             <div class="header-txt">
                 <h1>About Me</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores modi, quidem deserunt possimus corrupti, quasi autem mollitia facere saepe unde consectetur dolore temporibus. Maiores dignissimos mollitia ea pariatur.</p>
                 <div class="social-links">
-                    <a><img src="./assets/github.svg" alt="GitHub" /></a>
-                    <a><img src="./assets/linkedin.svg" alt="" /></a>
-                    <a><img src="./assets/stack-exchange.svg" alt="" /></a>
+                    <a href=""><img src="./assets/github.svg" alt="GitHub" /></a>
+                    <a href=""><img src="./assets/linkedin.svg" alt="Linkedin" /></a>
+                    <a href=""><img src="./assets/stack-exchange.svg" alt="Stack Exchange" /></a>
                 </div>
             </div>
         </header>
@@ -72,20 +77,19 @@
             </div>
         </main>
         <footer>
-            <div>
+            <div class="footer-txt">
                 <h3>Contact Me</h3>
                 <p>Get in touch if our work will be mutually beneficial!</p>
                 <p>123 Street Ln<br>City, New York 10001</p>
-                <a>
-                    <img class="footer-icon" src="./assets/phone.svg" alt="" />
-                </a>
-                <p>555-555-5555</p>
-                <a>
-                    <img class="footer-icon" src="./assets/email.svg" alt="" />
-                </a>
-                <p>example@example-website.edu</p>
+                <p><img class="footer-icon" src="./assets/phone.svg" alt="" />555-555-5555</p>
+                <p><img class="footer-icon" src="./assets/email.svg" alt="" />xample@example-website.edu</p>
             </div>
-            <img src="./assets/profile-2.jpeg" alt="">
+            <img
+            class="footer-profile-img" 
+            srcset="./assets/profile-2-lg.jpg, ./assets/profile-2-sm.jpg" 
+            sizes="(max-width: 500px) 310px,
+            440"
+            alt="" />
         </footer>
     </body>
 </html>
