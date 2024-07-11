@@ -1,4 +1,13 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('./assets/fonts/droidsans-webfont.woff2') format('woff2'),
+         url('./assets/fonts/droidsans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
+    font-family: 'droid_sansregular';
     margin: 0;
     padding: 0;
 }
@@ -14,10 +23,10 @@ header {
     grid-row: 1 / 2;
     width: 100%;
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     align-items: center;
     justify-items: center;
-    gap: 1rem;
-    grid-template-columns: 1fr 3fr;
+    gap: .5rem;
     background-color: lightblue;
     padding: 1rem;
 }
@@ -54,10 +63,11 @@ footer {
     width: 80%;
     height: 20rem;
     background-color: white;
+    margin: 1rem;
 }
 
 .header-txt h1, p {
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .social-links{
